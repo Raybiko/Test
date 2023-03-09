@@ -1,10 +1,13 @@
 #include<stdio.h>
-int main()
-{
-	int n2, n3; 
-	int n = 5;
-	n2 = n*n;
-	n3 = n2 * n2;
-	printf("n = %d, n squared = %d, n cubed = %d\n", n, n2, n3); 
+	int main() {
+	char ch;
+	float f;
+	double d;
+	ch = 'X';
+	f = 100.123;
+	d = 123.009;
+	printf(" ch is %c \n", ch); 
+	printf(" f is %f \n", f); 
+	printf(" d is %f \n", d); 
 	return 0;
 }
