@@ -1,13 +1,12 @@
-#include<stdio.h>
-	int main() {
-	char ch;
-	float f;
-	double d;
-	ch = 'X';
-	f = 100.123;
-	d = 123.009;
-	printf(" ch is %c \n", ch); 
-	printf(" f is %f \n", f); 
-	printf(" d is %f \n", d); 
-	return 0;
+#include<stdio.h> 
+int main(){
+    int num;
+    float f;
+    printf(" \nEnter an integer: ");
+    scanf( "%d ", &num);
+    printf("Enter a floating point number:\n ");
+    scanf( "%f ", &f); 
+    printf( "%d ", num); 
+    printf( "\n %f ", f); 
+    return 0;
 }
