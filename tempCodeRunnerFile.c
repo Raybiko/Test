@@ -1,12 +1,11 @@
 #include<stdio.h> 
-int main(){
-    int num;
-    float f;
-    printf(" \nEnter an integer: ");
-    scanf( "%d ", &num);
-    printf("Enter a floating point number:\n ");
-    scanf( "%f ", &f); 
-    printf( "%d ", num); 
-    printf( "\n %f ", f); 
-    return 0;
+int main()
+{
+	int len, width;
+	printf("\n Enter length: ");
+	scanf ("%d ", &len);
+	printf("\n Enter width : " );
+	scanf( " %d ", &width);
+	printf("\n The area is %d ", len * width);
+	return 0; 
 }
